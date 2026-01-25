@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buổi 4 - Ôn tập</title>
+    <style>
+    table{
+        /* Gộp các đường viền của các ô liền kề thành một đường viền duy nhất. */
+        border-collapse: collapse;
+    }
+    th,td{
+        /* Tạo viền màu đen độ dà 1px */
+        border: 1px solid orange;
+        /* Tạo khoảng cách giữa nội dung và viền ô */
+        padding: 8px;
+        /* Căn giữa nội dung trong ô */
+        text-align: center;
+    }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Chương trình học</caption>
+        <tr style="background-color: orangered;">
+          <th rowspan="2" style="color: white;">Nhóm học phần</th> <!-- Tiến hành gộp 2 cột A: Họ và tên; Tuổi-->
+          <th rowspan="2" style="color: white;">Môn học</th>
+          <th colspan="2" style="color: white;">Số tiết</th>
+        </tr>
+        <tr style="background-color: orangered;">
+            <th style="color: white;">Lý thuyết</th>
+            <th style="color: white;">Thực hành</th>
+        </tr>
+        <tr>
+            <th rowspan="6" style="color: orangered;">I.<br>Tin học văn phòng</th>
+            <th>Hệ điều hành Windows</th>
+            <th>3</th>
+            <th>5</th>
+        </tr>
+        <tr>
+            <th>Sử dụng Internet</th>
+            <th>3</th>
+            <th>5</th>
+        </tr>
+        <tr>
+            <th>Soạn thảo văn bản</th>
+            <th>24</th>
+            <th>40</th>
+        </tr>
+        <tr>
+            <th>Tạo bài trình duyệt</th>
+            <th>9</th>
+            <th>15</th>
+        </tr>
+        <tr>
+            <th>Xử lí số liệu</th>
+            <th>24</th>
+            <th>40</th>
+        </tr>
+        <tr>
+            <th>Tạo trang web</th>
+            <th>9</th>
+            <th>15</th>
+        </tr>
+        <tr>
+            <th rowspan="2" style="color: orangered;">II.<br>Kỹ thuật lập trình (VB.NET)</th>
+            <th>Nhập môn lập trình</th>
+            <th>36</th>
+            <th>60</th>
+        </tr>
+        <tr>
+            <th>Kỹ thuật lập trình</th>
+            <th>36</th>
+            <th>60</th>
+        </tr>
+        <tr>
+            <th colspan="4">...........</th>
+        </tr>
+    </table>
+</body>
+</html>

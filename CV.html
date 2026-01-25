@@ -3,29 +3,75 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>series</title>
 </head>
+<style>
+    body{
+        background-color: rgb(237, 215, 206);
+    }
+    table{
+        border-collapse: collapse;
+    }
+    th,td{
+        border: 1.5px solid purple;
+        padding: 12px;
+        text-align: center;
+    }
+    .inb{
+        color: rgb(3, 3, 190);
+    }
+    .index{
+        background:rgb(245, 236, 224);
+    }
+</style>
 <body>
-    <fieldset>
-    
-<form action="" method="get" target="">
-        <label for="">Tên của bạn</label> <br>
-        <input type="text" name="name" id="name" placeholder="Tên của bạn" size="70"/> <br><br>
-        <label for="">Số điện thoại của bạn</label> <br>
-        <input type="number" name="name" id="name" placeholder="Số điện thoại" size="60"/> <br><br>
-        <label for="">Mật khẩu của bạn</label> <br>
-        <input type="text" name="name" id="name" placeholder="Mật khẩu" size="60"/> <br><br>
-        <label for="">Giới tính</label> <br>
-        <input type="radio" name="name" id="name" placeholder="" size="60"/>
-        <label for="">Nam</label> <br>
-        <input type="radio" name="name" id="name" placeholder="" size="60"/>
-        <label for="">Nữ</label> <br>
-        <input type="radio" name="name" id="name" placeholder="" size="60"/>
-        <label for="">Khác</label> <br>
-        <br>
-        <label for=""></label> <br>
-        <button type="submit">Gửi</button>
-    </form>
-    </fieldset>
+    <h1 style="color: orange;">Các món ngon Hà Nội</h1>
+    <table>
+        <tr style="background: orange;">
+            <th>STT</th>
+            <th>Tên các món ăn</th>
+            <th>Đã thưởng thức</th>
+        </tr>
+        <tr>
+            <td>1.</td>
+            <td class="inb">Bánh cuốn Thanh Trì</td>
+            <td><input type="checkbox"></td>
+        </tr>
+        <tr class="index">
+            <td>2.</td>
+            <td class="inb">Xôi Hà Nội</td>
+            <td><input type="checkbox"></td>
+        </tr>
+        <tr>
+            <td>3.</td>
+            <td class="inb">Chả cá Lã Vọng</td>
+            <td><input type="checkbox"></td>
+        </tr>
+        <tr class="index">
+            <td>4.</td>
+            <td class="inb">Cháo Cóc</td>
+            <td><input type="checkbox"></td>
+        </tr>
+        <tr>
+            <td>5.</td>
+            <td class="inb">Bánh gai Ninh Giang</td>
+            <td><input type="checkbox"></td>
+        </tr>
+         <tr class="index">
+            <td>6.</td>
+            <td class="inb">Bún thang Hà Nội</td>
+            <td><input type="checkbox"></td>
+        </tr>
+        <tr>
+            <td>7.</td>
+            <td class="inb">Canh Lằng</td>
+            <td><input type="checkbox"></td>
+        </tr>
+        <tr class="index">
+            <td>8.</td>
+            <td class="inb">Vịt quay Lạng Sơn</td>
+            <td><input type="checkbox"></td>
+        </tr>
+    </table>
 </body>
 </html>

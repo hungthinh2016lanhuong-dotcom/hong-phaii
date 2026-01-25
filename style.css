@@ -1,0 +1,51 @@
+.khoi1{
+    position: static;
+    border: 2px solid red;
+    display: block;
+    height: 1000px;
+    width: 500px;
+}
+.khoi2{
+    position: relative;
+    border: 2px solid blue;
+    top: 20px;
+    left: 900px;
+    display: inline;
+}
+.fixed_box{
+    height: 100px;
+    width: 150px;
+    background-color: lightgoldenrodyellow;
+    position: relative;
+}
+.import{
+    display: inline-block;
+    background: lightblue;
+    width: 700px;
+}
+.container{
+    display: flex;
+    background: lightskyblue;
+    width: 200px;
+    padding: 10px;
+    justify-content: space-between;
+}
+.containers{
+    display: grid;
+    grid-template-columns: 50px 50px;
+    gap: 5px;
+    background: red;
+    width: 110px;
+    padding: 10px;
+}
+.visible{
+    width: 200px;
+    height: 100px;
+    border: 2px solid black;
+    overflow: auto;
+    font-size: 12px;
+}
+.box.img{
+    float: right;
+    width: 20px;
+}

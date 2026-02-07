@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hong phaii</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue';
+        background-color: rgb(231, 216, 246);
+    }
+    .header{
+        text-align: center;
+        background-color: white;
+        padding: 25px;
+        color: blueviolet;
+    }
+    .header > h1{
+        margin-bottom: 10px;
+    }
+    .meme{
+        background-color: rgb(66, 1, 98);
+    }
+    .meme > ul{
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+
+    }
+    .meme li{
+        padding: 15px;
+         color: white;
+        
+    }
+    .meme li:hover{
+        color: black;
+        transition: color 0.3s ease;
+    }
+    .container{
+        display: flex;
+        padding: 20px;
+        gap: 25px;
+    }
+    .content {
+        flex: 3;
+        background-color: white;
+        padding: 20px;
+        border: 3px solid rgb(231, 216, 246);
+        align-items: stretch;
+    }
+    .content > h2{
+        margin-bottom: 10px;
+        font-size: x-large;
+    }
+    .meta{
+        margin-bottom: 15px;
+    }
+    .image-box1{
+        max-width: 1020px;
+        background-color: rgb(227, 164, 227);
+        text-align: center;
+        min-height: 130px;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+    }
+    .sidebar{
+        flex:1;
+        background-color: white;
+        padding: 20px;
+        border: 5px solid rgb(231, 216, 246);
+        height: auto;
+    
+    }
+    .sidebar > h3{
+        margin-bottom: 10px;
+        font-size:x-large;
+    }
+    .still{
+        margin-top: 5px;
+    }
+    .image-box2{
+        max-width: 320px;
+        background-color: rgb(227, 164, 227);
+        text-align: center;
+        min-height: 130px;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+    }
+</style>
+<body>
+    <div class="header">
+        <h1>Website Quản Trị Mạng</h1>
+        <p>Kiến thức - Kinh nghiệm - Hỏi đáp</p>
+    </div>
+    <div class="meme">
+        <ul>
+            <li>Làng Công nghệ</li>
+            <li>Công nghệ</li>
+            <li>Cuộc sống</li>
+            <li>Đăng ký</li>
+        </ul>
+    </div>
+     <div class="container">
+        <div class="content">
+            <h2> Form - Biểu mẫu trong CSS</h2>
+            <p class="meta">Quách Tĩnh, 14/02/2019</p>
+
+            <div class="image-box1">Ảnh</div>
+        </div>
+        <div class="sidebar">
+            <h3>Giới thiệu</h3>
+            <div class="image-box2">Ảnh</div>
+                <p class="still">Quantrimang.com</p>
+        </div>
+    </div>
+</body>
+</html>
